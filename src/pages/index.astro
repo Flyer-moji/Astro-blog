@@ -8,8 +8,8 @@ import GitHubStats from "@/components/mdx/GitHubStats.astro";
 
 <BaseLayout title="Home">
   <MainCard
-    title="Welcome to Frosti"
-    description="A modern, responsive, feature-rich blog theme for Astro with dark/light mode and customizable options."
+    title="Hi! See what you’ve discovered here."
+    description="写点东西，记录一下正在折腾的事儿"
     textOverlay="HOME"
     infoIcon="lucide:info"
   >
@@ -20,27 +20,26 @@ import GitHubStats from "@/components/mdx/GitHubStats.astro";
           <h1
             class="text-4xl font-bold mb-4 bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent leading-loose"
           >
-            🌟 Frosti Blog Theme
+            Flyer-moji's Blog
           </h1>
           <p class="text-xl text-base-content/80 max-w-3xl mb-8">
-            A minimal, responsive, and feature-rich Astro blog theme designed for creators who value beautiful content
-            presentation and exceptional performance.
+            这里是 Flyer-moji 的博客空间，记录一些技术笔记、代码实验，还有日常的瞎折腾。
           </p>
           <div class="flex flex-wrap gap-4 justify-center">
             <a href="/blog" class="btn btn-primary gap-2 btn-shine-effect">
               <Icon name="lucide:book-open" class="w-5 h-5" />
               <span>Explore Blog</span>
             </a>
-            <a href="https://github.com/EveSunMaple/Frosti" target="_blank" class="btn btn-outline gap-2">
+            <a href="https://github.com/Flyer-moji" target="_blank" class="btn btn-outline gap-2">
               <Icon name="lucide:github" class="w-5 h-5" />
-              <span>Star on GitHub</span>
+              <span>My GitHub</span>
             </a>
           </div>
         </div>
       </section>
 
       <!-- Features Section -->
-      <section class="py-6">
+      <!-- <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:sparkles" class="w-6 h-6 text-primary" />
           <span>Features</span>
@@ -89,10 +88,10 @@ import GitHubStats from "@/components/mdx/GitHubStats.astro";
             color="oklch(0.7 0.2 10)"
           />
         </div>
-      </section>
+      </section> -->
 
       <!-- Quick Start -->
-      <section class="py-6">
+      <!-- <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:rocket" class="w-6 h-6 text-primary" />
           <span>Quick Start</span>
@@ -166,16 +165,16 @@ import GitHubStats from "@/components/mdx/GitHubStats.astro";
             >
           </div>
         </div>
-      </section>
+      </section> -->
 
       <!-- GitHub Stats -->
       <section class="py-6">
         <h2 class="text-2xl font-bold mb-6 flex items-center gap-2">
           <Icon name="lucide:github" class="w-6 h-6 text-primary" />
-          <span>Repository Stats</span>
+          <span>GitHub Stats</span>
         </h2>
 
-        <GitHubStats username="EveSunMaple" repositoryName="Frosti" showLanguages={true} showContributors={true} />
+        <GitHubStats username="Flyer-moji"  showLanguages={true} showContributors={true} />
       </section>
     </div>
   </MainCard>

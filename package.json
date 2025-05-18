@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro check && astro build && pagefind --site dist && cp -r dist/pagefind public/",
+    "build:win": "astro check && astro build && pagefind --site dist && powershell Copy-Item -Recurse -Force dist/pagefind public/",
     "preview": "astro preview",
     "astro": "astro"
   },
