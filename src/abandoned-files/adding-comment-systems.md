@@ -3,14 +3,6 @@ title: Adding Comment Systems to Frosti
 description: A comprehensive guide on how to integrate the Waline comment system into your Frosti blog
 pubDate: 04 15 2025
 image: /image/image4.jpg
-categories:
-  - tech
-tags:
-  - Frosti
-  - Comments
-  - Waline
-  - Astro
----
 
 ## Introduction
 
