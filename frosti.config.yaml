@@ -39,6 +39,12 @@ site:
           href: /blog/category/tech
           svg: "material-symbols:deployed-code-outline"
           target: _self
+        - id: knowledge
+          text: knowledge blogs
+          href: /blog/category/knowledge
+          svg: "material-symbols:calculate"
+          target: _self
+          
         # - id: life
         #   text: Life blogs
         #   href: /blog/category/life
@@ -50,9 +56,9 @@ site:
     #   href: /project
     #   svg: "material-symbols:code-blocks-outline"
     #   target: _self
-    - id: friend
-      text: Friend
-      href: /friend
+    - id: Resources
+      text: Resources
+      href: /Resources
       svg: "material-symbols:supervisor-account-outline-rounded"
       target: _self
     - id: contact

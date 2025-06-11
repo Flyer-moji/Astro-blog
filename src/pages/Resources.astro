@@ -6,11 +6,11 @@ import LinkCard from "@/components/mdx/LinkCard.astro";
 import FriendCard from "@/components/mdx/FriendCard.astro";
 ---
 
-<BaseLayout title="Friends">
+<BaseLayout title="Resources">
   <MainCard
-    title="Friends & Resources"
-    description="A collection of links to friends, technologies, and contributors to the Frosti project."
-    textOverlay="FRIENDS"
+    title="Resources & Friends"
+    description="A collection of links to friends, technologies to the project."
+    textOverlay="Resources"
     infoIcon="lucide:link"
   >
     <div class="space-y-10">
@@ -107,17 +107,10 @@ import FriendCard from "@/components/mdx/FriendCard.astro";
         </h2>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-          <LinkCard
-            title="Astro Documentation"
-            desc="The official documentation for Astro, covering everything from getting started to advanced techniques."
-            url="https://docs.astro.build"
-            icon="simple-icons:astro"
-            categories={["Docs", "Learning", "Reference"]}
-          />
 
           <LinkCard
             title="Tailwind CSS Documentation"
-            desc="Learn how to use Tailwind's utility classes to style your website without writing CSS."
+            desc=""
             url="https://tailwindcss.com/docs"
             icon="simple-icons:tailwindcss"
             categories={["Docs", "CSS", "Reference"]}
@@ -125,18 +118,74 @@ import FriendCard from "@/components/mdx/FriendCard.astro";
 
           <LinkCard
             title="Python Official Documentation"
-            desc="The official Python documentation covering language syntax, libraries, and tutorials."
+            desc=""
             url="https://docs.python.org/3/"
             icon="simple-icons:python"
             categories={["Docs", "Python", "Reference"]}
           />
 
           <LinkCard
+            title="Astro Documentation"
+            desc=""
+            url="https://docs.astro.build"
+            icon="simple-icons:astro"
+            categories={["Docs", "Learning", "Reference"]}
+          />
+
+          <LinkCard
             title="C++ Reference"
-            desc="Comprehensive reference for C++ language and standard library."
+            desc=""
             url="https://en.cppreference.com/w/"
             icon="simple-icons:cplusplus"
             categories={["Docs", "C++", "Reference"]}
+          />
+
+          <LinkCard
+            title="MDN HTML documentation"
+            desc=""
+            url="https://developer.mozilla.org/zh-CN/docs/Learn_web_development/Core/Structuring_content"
+            icon="lucide:book-open"
+            categories={["Docs", "HTML", "Learning"]}
+          />
+
+          <LinkCard
+            title="iLovePDF"
+            desc=" PDF 工具在线处理工具"
+            url="https://www.ilovepdf.com/zh-cn"
+            icon="lucide:file-text"
+            categories={["Tools", "PDF", "Online"]}
+          />
+
+          <LinkCard
+            title="Mathpix Snip"
+            desc="数学公式截图自动识别为LaTeX、Markdown等"
+            url="https://snip.mathpix.com/"
+            icon="lucide:camera"
+            categories={["Tools", "OCR", "Math"]}
+          />
+
+          <LinkCard
+            title="diagrams.net"
+            desc="在线图表绘制工具，支持多种图形的可视化编辑"
+            url="https://app.diagrams.net/"
+            icon="lucide:layout"
+            categories={["Tools", "Diagram", "Visualization"]}
+          />
+
+          <LinkCard
+            title="Markdown"
+            desc="Markdown 语法中文速查"
+            url="https://markdown.com.cn/cheat-sheet.html"
+            icon="lucide:file-text"
+            categories={["Docs", "Markdown", "Reference"]}
+          />
+
+          <LinkCard
+            title="Pandoc Try"
+            desc="在线支持 Markdown、LaTeX、HTML 等格式相互转换"
+            url="https://pandoc.org/try/"
+            icon="lucide:code"
+            categories={["Tools", "Conversion", "Docs"]}
           />
 
         </div>
